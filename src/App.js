@@ -8,6 +8,12 @@ function App() {
       <img src="./img/mountain.png" alt="mountain" className='fixed custom-mountain-position' />
       <img src="./img/wind.png" alt="wind" className='fixed custom-wind-position' />
       <img src="./img/Ellipse 2.png" alt="Ellipse 2" className='fixed top-10 custom-ellipse-position' />
+      <div className="fixed right-10 top-10">
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="round"></span>
+        </label>
+      </div>
       <div className='container box-border mx-auto relative top-16'>
         <div class="h-64 grid grid-cols-2 justify-items-center custom-direction gap-4">
           <div>
@@ -23,22 +29,23 @@ function App() {
           </div>
           <div className='border-solid border-2 p-10 rounded-2xl border-white relative'>
             <div className='absolute bottom-14 flex gap-4 left-10'>
-              <span className=""> به زودی </span>
-              <img src="./img/Path 207@2x.png" alt="path 207" />
+              <span className="contents custom-span"> به زودی </span>
+              <img src="./img/Path 207@2x.png" alt="path 207" className='z-10' />
             </div>
             <div className='absolute bottom-24 flex gap-4 left-10'>
-              <span className=""> شهر های فعال </span>
-              <img src="./img/Path 206@2x.png" alt="path 206" />
+              <span className="contents custom-span"> شهر های فعال </span>
+              <img src="./img/Path 206@2x.png" alt="path 206" className='z-10' />
             </div>
+            
             <img src="./img/Group 28@2x.png" className='' alt="group" />
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-80 left-64 cursor-pointer'/>
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-56 left-56 cursor-pointer'/>
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-36 left-72 cursor-pointer'/>
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-32 left-48 cursor-pointer'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-64 left-64 cursor-pointer'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-36 left-96 cursor-pointer'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-40 left-32 cursor-pointer'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-20 left-12 cursor-pointer'/>
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-80 left-64 cursor-pointer' />
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-56 left-56 cursor-pointer' />
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-36 left-72 cursor-pointer' />
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-32 left-48 cursor-pointer' />
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-64 left-64 cursor-pointer' />
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-36 left-96 cursor-pointer' />
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-40 left-32 cursor-pointer' />
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-20 left-12 cursor-pointer' />
           </div>
         </div>
       </div>
