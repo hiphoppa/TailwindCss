@@ -31,3 +31,27 @@
     width: 100%;
     background-attachment: fixed;
 }
+
+.custom-contact {
+    background-color: #1574F6;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-info {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-buttons {
+    margin-top: 7rem;
+}
+
+.custom-direction {
+    direction: rtl;
+}
+
+.custom-country {
+    border: 1px solid white;
+}
