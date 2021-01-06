@@ -31,14 +31,14 @@ function App() {
               <img src="./img/Path 206@2x.png" alt="path 206" />
             </div>
             <img src="./img/Group 28@2x.png" className='' alt="group" />
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-80 left-64'/>
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-56 left-56'/>
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-36 left-72'/>
-            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-32 left-48'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-64 left-64'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-36 left-96'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-40 left-32'/>
-            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-20 left-12'/>
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-80 left-64 cursor-pointer'/>
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-56 left-56 cursor-pointer'/>
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-36 left-72 cursor-pointer'/>
+            <img src="./img/Path 207@2x.png" alt="path" className='absolute top-32 left-48 cursor-pointer'/>
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-64 left-64 cursor-pointer'/>
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-36 left-96 cursor-pointer'/>
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-40 left-32 cursor-pointer'/>
+            <img src="./img/Path 206@2x.png" alt="path" className='absolute top-20 left-12 cursor-pointer'/>
           </div>
         </div>
       </div>
