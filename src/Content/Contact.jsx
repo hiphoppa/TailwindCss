@@ -3,30 +3,30 @@ import React, { Fragment } from 'react';
 const Contact = () => {
     return (
         <Fragment>
-            <div className="border-0 rounded-r-2xl  h-full shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+            <div className="border-0 sm:rounded-r-2xl rounded-t-2xl h-full shadow-lg sm:relative flex flex-col sm:w-full bg-white outline-none focus:outline-none">
                 <div className="relative p-6 flex-auto c-bg-blue rounded-2xl">
-                    <h1 className="text-4xl text-white mb-12">راه های تماس با ما</h1>
-                    <p className="text-white text-md leading-10 font-light">
+                    <h1 className="sm:text-4xl text-2xl text-white mb-12">راه های تماس با ما</h1>
+                    <p className="text-white text-sm sm:text-base leading-10 font-light">
                         افزون بر راه های تماس پایین، با پر کردن فرم به ما کمک میکنید<br />
                                         تا در کمترین زمان ممکن با شما تماس بگیریم
                                     </p>
-                    <div className="mt-8 flex flex-col leading-8">
+                    <div className="mt-8 flex flex-col leading-9 sm:leading-8">
                         <div className="">
                             <img src="./img/Path 337@2x.png" alt="phone big" className="inline-block ml-8" />
-                            <p className="text-white inline-block text-md font-light">021-25252525</p>
+                            <p className="text-white inline-block text-sm sm:text-base font-light">021-25252525</p>
                         </div>
                         <div className="">
                             <img src="./img/Path 338@2x.png" alt="email big" className="inline-block ml-8" />
-                            <p className="text-white inline-block text-md font-light">mehran.mj9999@gmail.com</p>
+                            <p className="text-white inline-block text-sm sm:text-base font-light">mehran.mj9999@gmail.com</p>
                         </div>
                         <div className="">
-                            <img src="./img/Path 340@2x.png" alt="phone big" className="inline-block ml-8" />
-                            <p className="text-white inline-block text-md font-light">تهران  /  خیابان جمهوری  /  خیابان حسن حسینی</p>
+                            <img src="./img/Path 340@2x.png" alt="phone big" className="inline-block w-3 ml-3" />
+                            <p className="text-white inline-block text-xs sm:text-base font-light">تهران  /  خیابان جمهوری  /  خیابان حسن حسینی</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="bg-white rounded-l-2xl">
+            <div className="bg-white sm:rounded-l-2xl rounded-b-2xl">
                 <div className="grid grid-cols-2 gap-4 mx-16 mt-12">
                     <div className="">
                         <p className='c-font'>
@@ -96,7 +96,6 @@ const Contact = () => {
                 </div>
                 <button className='c-bg-blue text-white px-12 py-4 rounded-xl mt-8 left-16 absolute'> ارسال </button>
             </div>
-            {/* <div className="opacity-25 fixed inset-0 z-40 bg-black"></div> */}
         </Fragment>
     );
 }
