@@ -2,10 +2,8 @@
     right: -18rem;
 }
 
-.custom-recycle-position {
-    top: 20rem;
-    right: -5rem;
-    width: 15rem;
+.c-top-big {
+    top: 30rem;
 }
 
 .custom-mountain-position {
@@ -25,12 +23,13 @@
     width: 10rem;
 }
 
-.custom-background {
+
+/* .custom-background {
     background-color: #40A858;
     height: 100%;
     width: 100%;
     background-attachment: fixed;
-}
+} */
 
 .custom-contact {
     background-color: #1574F6;
