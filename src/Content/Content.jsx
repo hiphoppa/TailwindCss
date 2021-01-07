@@ -25,6 +25,7 @@ const Content = () => {
                             >
                                 <div className="relative w-72 sm:w-5/6 h-4/5 my-6 sm:rounded-l-2xl rounded-t-2xl sm:grid sm:grid-cols-2 flex flex-col mx-auto">
                                     <img src="./img/Path 2645@2x.png" alt="exit" className="absolute hidden sm:flex left-6 top-6 cursor-pointer" onClick={() => setShowModal(false)} />
+                                    <img src="./img/Path 2645@2x.png" alt="exit" className="absolute flex sm:hidden left-6 top-8 cursor-pointer z-20 w-4" onClick={() => setShowModal(false)} />
                                     <Contact />
                                 </div>
                             </div>

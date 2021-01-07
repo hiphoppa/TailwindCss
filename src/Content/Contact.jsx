@@ -27,32 +27,32 @@ const Contact = () => {
                 </div>
             </div>
             <div className="bg-white sm:rounded-l-2xl rounded-b-2xl">
-                <div className="grid grid-cols-2 gap-4 mx-16 mt-12">
-                    <div className="">
+                <div className="sm:grid sm:grid-cols-2 flex flex-col gap-4 sm:mx-16 mx-8 mt-12">
+                    <div className="mb-4 sm:mb-0">
                         <p className='c-font'>
                             نام و نام خانوادگی
                                         </p>
                         <input className='border-b-2 border-gray-600' type="text" placeholder='مهران محمودی' />
                     </div>
-                    <div className="">
+                    <div className="mb-4 sm:mb-0">
                         <p className='c-font'>
                             نام سازمان
                                         </p>
                         <input className='border-b-2 border-gray-600' type="text" />
                     </div>
-                    <div className="">
+                    <div className="mb-4 sm:mb-0">
                         <p className='c-font'>
                             شماره تماس
                                         </p>
                         <input className='border-b-2 border-gray-600' type="text" placeholder='09307065673' />
                     </div>
-                    <div className="">
+                    <div className="mb-4 sm:mb-0">
                         <p className='c-font'>
                             ایمیل
                                         </p>
                         <input className='border-b-2 border-gray-600' type="text" placeholder='mehran.mj9999@gmail.com' />
                     </div>
-                    <div className="">
+                    <div className="mb-4 sm:mb-0">
                         <p className='c-font'>
                             استان
                                         </p>
@@ -62,7 +62,7 @@ const Contact = () => {
                             <option class="">مشهد</option>
                         </select>
                     </div>
-                    <div className="">
+                    <div className="mb-4 sm:mb-0">
                         <p className='c-font'>
                             شهر
                                         </p>
@@ -73,9 +73,9 @@ const Contact = () => {
                         </select>
                     </div>
                 </div>
-                <p className="text-bold text-black mr-16 mt-12 font-light text-sm">کدام گزینه شما را معرفی میکند</p>
+                <p className="text-bold text-black sm:mr-16 mr-8 mt-12 font-light text-sm">کدام گزینه شما را معرفی میکند</p>
                 <div className="grid mt-4 grid-cols-1 md:grid-cols-3 mx-8">
-                    <div class="flex items-center gap-4 mb-2 mr-4">
+                    <div class="flex items-center gap-4 mb-2 sm:mr-4">
                         <input type="radio" id="radio-example-1" name="radio" class="h-4 w-4 text-gray-700 px-3 py-3 border rounded mr-2" />
                         <label for="radio-example-1" class="text-gray-600 c-font"> شخص حقیقی </label>
                     </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                                     </p>
                     <textarea rows="1" className="border-b-2 border-gray-600 w-full"></textarea>
                 </div>
-                <button className='c-bg-blue text-white px-12 py-4 rounded-xl mt-8 left-16 absolute'> ارسال </button>
+                <button className='c-bg-blue text-white px-12 py-4 rounded-xl sm:mt-8 sm:left-16 mt-8 w-full sm:w-20  sm:absolute'> ارسال </button>
             </div>
         </Fragment>
     );
