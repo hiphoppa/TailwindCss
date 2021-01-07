@@ -19,24 +19,8 @@ export default function Modal() {
 
                     >
                         <div className="relative w-5/6 h-4/5 my-6 rounded-l-2xl grid grid-cols-2 mx-auto">
-                            {/*content*/}
-                                <img src="./img/Path 2645@2x.png" alt="exit" className="absolute left-6 top-6 cursor-pointer" onClick={() => setShowModal(false)} />
+                            <img src="./img/Path 2645@2x.png" alt="exit" className="absolute left-6 top-6 cursor-pointer" onClick={() => setShowModal(false)} />
                             <div className="border-0 rounded-r-2xl  h-full shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                                {/*header*/}
-                                {/* <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
-                                    <h3 className="text-3xl font-semibold">
-                                        Modal Title
-                                    </h3>
-                                    <button
-                                        className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                                        onClick={() => setShowModal(false)}
-                                    >
-                                        <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                                            ×
-                                    </span>
-                                    </button>
-                                </div> */}
-                                {/*body*/}
                                 <div className="relative p-6 flex-auto c-bg-blue rounded-2xl">
                                     <h1 className="text-4xl text-white mb-12">راه های تماس با ما</h1>
                                     <p className="text-white text-md leading-10 font-light">
@@ -58,25 +42,6 @@ export default function Modal() {
                                         </div>
                                     </div>
                                 </div>
-                                {/*footer*/}
-                                {/* <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
-                                    <button
-                                        className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
-                                        type="button"
-                                        style={{ transition: "all .15s ease" }}
-                                        onClick={() => setShowModal(false)}
-                                    >
-                                        Close
-                                    </button>
-                                    <button
-                                        className="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                        type="button"
-                                        style={{ transition: "all .15s ease" }}
-                                        onClick={() => setShowModal(false)}
-                                    >
-                                        Save Changes
-                                    </button>
-                                </div> */}
                             </div>
                             <div className="bg-white rounded-l-2xl">
                                 <div className="grid grid-cols-2 gap-4 mx-16 mt-12">
@@ -127,7 +92,6 @@ export default function Modal() {
                                 </div>
                                 <p className="text-bold text-black mr-16 mt-12 font-light text-sm">کدام گزینه شما را معرفی میکند</p>
                                 <div className="grid mt-4 grid-cols-1 md:grid-cols-3 mx-8">
-                                    {/* <div class="flex"> */}
                                     <div class="flex items-center gap-4 mb-2 mr-4">
                                         <input type="radio" id="radio-example-1" name="radio" class="h-4 w-4 text-gray-700 px-3 py-3 border rounded mr-2" />
                                         <label for="radio-example-1" class="text-gray-600 c-font"> شخص حقیقی </label>
@@ -140,7 +104,6 @@ export default function Modal() {
                                         <input type="radio" id="radio-example-2" name="radio" class="h-4 w-4 text-gray-700 px-3 py-3 border rounded mr-2" />
                                         <label for="radio-example-2" class="text-gray-600 c-font"> سازمان دولتی </label>
                                     </div>
-                                    {/* </div> */}
                                 </div>
                                 <div className="mt-4 mx-16">
                                     <p className='c-font'>
