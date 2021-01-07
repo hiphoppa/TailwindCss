@@ -2,6 +2,7 @@ import './App.css';
 import Content from './Content/Content';
 import Map from './Content/Map';
 import Icons from './Icons/Icons';
+import React, { useState } from 'react';
 
 function App() {
   return (

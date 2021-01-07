@@ -1,6 +1,7 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 
 const Content = () => {
+    const [showModal, setShowModal] = useState(false)
     return (
         <Fragment>
             <div className='mt-16 md:mt-0 grid justify-items-center'>
@@ -10,8 +11,15 @@ const Content = () => {
             پسماند هایی است که قابلیت بازماند دارند. برای این کار به شما<br />
              نیاز داریم، با ما همراه شوید تا بهروب و ناوگان آن را در سراسر <br />
              ایران گسترش دهیم</p>
+             
                     <div className="flex gap-5 custom-buttons">
-                        <button className="custom-contact px-8 py-4 text-white text-sm font-light focus:outline-none"> تماس با ما </button>
+                        <button
+                            className="custom-contact px-8 py-4 text-white text-sm font-light focus:outline-none"
+                            style={{ transition: 'all 0.15s ease' }}
+                        > تماس با ما </button>
+                            
+                            
+                            
                         <button className="custom-info px-8 py-4 text-black text-sm font-light focus:outline-none"> بیشتر بدانید </button>
                     </div>
                 </div>
