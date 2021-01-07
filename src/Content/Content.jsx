@@ -1,7 +1,10 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useContext, useState } from 'react';
+import Contact from './Contact';
+import Modal from './Modal';
 
 const Content = () => {
-    const [showModal, setShowModal] = useState(false)
+    const [showModal, setShowModal] = useState(false);
+
     return (
         <Fragment>
             <div className='mt-16 md:mt-0 grid justify-items-center'>
@@ -11,15 +14,27 @@ const Content = () => {
             پسماند هایی است که قابلیت بازماند دارند. برای این کار به شما<br />
              نیاز داریم، با ما همراه شوید تا بهروب و ناوگان آن را در سراسر <br />
              ایران گسترش دهیم</p>
-             
+                    {/* <Modal /> */}
                     <div className="flex gap-5 custom-buttons">
                         <button
                             className="custom-contact px-8 py-4 text-white text-sm font-light focus:outline-none"
                             style={{ transition: 'all 0.15s ease' }}
+                            onClick={() => setShowModal(true)}
                         > تماس با ما </button>
-                            
-                            
-                            
+                        {showModal ? (
+                            <div
+                                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+
+                            >
+                                <div className="relative w-5/6 h-4/5 my-6 rounded-l-2xl grid grid-cols-2 mx-auto">
+                                    <img src="./img/Path 2645@2x.png" alt="exit" className="absolute left-6 top-6 cursor-pointer" onClick={() => setShowModal(false)} />
+                                    <Contact />
+                                </div>
+                            </div>
+                        ) : null}
+
+
+
                         <button className="custom-info px-8 py-4 text-black text-sm font-light focus:outline-none"> بیشتر بدانید </button>
                     </div>
                 </div>
