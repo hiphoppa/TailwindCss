@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const Map = () => {
+const Map = ({dark}) => {
     return (
         <Fragment>
             <div className='border-solid border-2 p-10 m-10 md:m-0 rounded-2xl border-white relative mt-8 md:mt-0'>
@@ -15,7 +15,7 @@ const Map = () => {
                     <img src="./img/Path 206.png" alt="path 206 sm" className='z-10 flex sm:hidden w-4' />
                 </div>
 
-                <img src="./img/Group 28@2x.png" className='' alt="group" />
+                <img src={dark ? './img/Group 28@2x.png' : './img/Group -1@2x.png'} className='c-transition' alt="group" />
                 <img src="./img/Path 207@2x.png" alt="path lg" className='absolute top-80 left-64 cursor-pointer hidden sm:flex' />
                 <img src="./img/Path 207.png" alt="path sm" className='absolute top-40 left-32 cursor-pointer flex sm:hidden' />
                 <img src="./img/Path 207@2x.png" alt="path lg" className='absolute top-56 left-56 cursor-pointer hidden sm:flex' />

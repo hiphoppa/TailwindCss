@@ -125,3 +125,48 @@ span.round:before {
     color: rgb(145, 142, 142);
     font-weight: 500;
 }
+
+.light-mode {
+    background-color: #40A858;
+}
+
+.light-dark {
+    background-color: #65738F;
+}
+
+.light-dark-color {
+    color: #65738F;
+    font-size: 12px;
+}
+
+.dark-mode {
+    background-color: #464646;
+}
+
+.c-transition {
+    transition: all 0.3s ease;
+}
+
+.input-dark {
+    background-color: #464646;
+    color: #65738F;
+    border-bottom: 2px solid #65738F;
+}
+
+.input-light {
+    background-color: #fff;
+    color: #464646;
+    border-bottom: 2px solid #464646;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.c-text-light {
+    color: #464646;
+}
