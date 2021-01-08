@@ -170,3 +170,7 @@ textarea:focus {
 .c-text-light-dark {
     color: #65738F;
 }
+
+.c-left-70 {
+    left: 70%;
+}
