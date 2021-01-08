@@ -14,7 +14,7 @@ const Content = ({dark}) => {
             پسماند هایی است که قابلیت بازماند دارند. برای این کار به شما<br />
              نیاز داریم، با ما همراه شوید تا بهروب و ناوگان آن را در سراسر <br />
              ایران گسترش دهیم</p>
-             <MoreInfo />
+             
                     <div className="flex gap-5 custom-buttons">
                         <button
                             className="custom-contact px-8 py-4 text-white text-sm font-light focus:outline-none"
@@ -33,6 +33,7 @@ const Content = ({dark}) => {
                             </div>
                         ) : null}
                         <button className="custom-info px-8 py-4 text-black text-sm font-light focus:outline-none"> بیشتر بدانید </button>
+                        <MoreInfo />
                     </div>
                 </div>
             </div>

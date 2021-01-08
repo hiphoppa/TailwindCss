@@ -23,13 +23,9 @@
     width: 10rem;
 }
 
-
-/* .custom-background {
-    background-color: #40A858;
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-} */
+.c-blue {
+    color: #1574F6;
+}
 
 .custom-contact {
     background-color: #1574F6;
@@ -169,4 +165,8 @@ textarea:focus {
 
 .c-text-light {
     color: #464646;
+}
+
+.c-text-light-dark {
+    color: #65738F;
 }
