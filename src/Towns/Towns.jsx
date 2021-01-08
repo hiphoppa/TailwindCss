@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const Town = ({hide, dark}) => {
     return (
         <Fragment>
-            <div className={`absolute rounded-3xl ${dark ? "bg-white" : "dark-mode"} w-36 flex justify-around ${hide ? "hidden" : "flex"}`}>
+            <div className={`absolute rounded-3xl left-3/4 ${dark ? "bg-white" : "dark-mode"} w-36 flex justify-around ${hide ? "hidden" : "flex"}`}>
                 <table class="table-auto border-none mx-auto w-full mt-4">
                     <thead className=''>
                         <tr className='pb-8 leading-10'>
