@@ -45,8 +45,8 @@ const Content = ({ dark }) => {
                             <div
                                 className="justify-center items-center sm:flex sm:overflow-x-hidden overflow-y-auto fixed inset-0 z-40 outline-none focus:outline-none"
                             >
-                                <div className="relative w-10/12 sm:w-2/5 h-4/5 my-6 top-24 sm:top-0 sm:rounded-l-2xl rounded-t-2xl flex flex-col mx-auto">
-                                    <div className={`border-0 rounded-3xl shadow-lg flex sm:relative top-24 flex-col w-full outline-none focus:outline-none ${dark ? 'bg-white' : 'dark-mode'}`}>
+                                <div className="relative w-10/12 sm:w-2/5 h-4/5 my-6 top-24 sm:top-2 sm:top-0 sm:rounded-l-2xl rounded-t-2xl flex flex-col mx-auto">
+                                    <div className={`border-0 rounded-3xl shadow-lg flex sm:relative top-24 sm:top-2 flex-col w-full outline-none focus:outline-none ${dark ? 'bg-white' : 'dark-mode'}`}>
                                         <div className="relative w-full p-6 flex-auto">
                                             <img src="./img/Path 2645@2x.png" alt="exit" className={`absolute top-8 left-8 cursor-pointer ${dark ? '' : 'bg-white'}`} onClick={() => setModal(false)} />
                                             <MoreInfo dark={dark} />
