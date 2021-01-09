@@ -10,7 +10,7 @@ function App() {
     localStorage.setItem('dark', JSON.stringify(dark))
 
   }, [dark])
-  function getInitial (){
+  function getInitial() {
     const savedMode = JSON.parse(localStorage.getItem('dark'));
     return savedMode || false;
   }
@@ -19,7 +19,11 @@ function App() {
       <Icons />
       <div className="fixed right-10 top-10 z-50">
         <label class="switch">
-          <input type="checkbox" onChange={() => setDark(prevDark => !prevDark)} />
+          <input
+            type="checkbox"
+            onChange={() => setDark(prevDark => !prevDark)}
+            checked={!dark}
+          />
           <span class="round"></span>
         </label>
       </div>

@@ -94,7 +94,7 @@ const Contact = ({dark}) => {
                                     </p>
                     <textarea rows="1" className={`w-full ${dark ? "input-light" : "input-dark"}`}></textarea>
                 </div>
-                <button className='c-bg-blue text-white px-12 py-4 rounded-xl sm:mt-8 sm:left-16 mt-8 w-full sm:w-32  sm:absolute'> ارسال </button>
+                <button className='c-bg-blue text-white px-12 py-4 rounded-xl sm:mt-8 sm:left-16 mt-8 w-full sm:w-32 focus:outline-none  sm:absolute'> ارسال </button>
             </div>
         </Fragment>
     );
