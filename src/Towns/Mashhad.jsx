@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 
-const Zahedan = ({hide, dark}) => {
+const Mashhad = ({hide, dark}) => {
     return (
         <Fragment>
-            <div className={`absolute rounded-3xl lef-2/3 ${dark ? "bg-white" : "dark-mode"} w-36 flex justify-around ${hide ? "hidden" : "flex"}`}>
+            <div className={`absolute rounded-3xl z-10 top-1/3 left-3/4 ${dark ? "bg-white" : "dark-mode"} w-36 flex justify-around ${hide ? "hidden" : "flex"}`}>
                 <table class="table-auto border-none mx-auto w-full mt-4">
                     <thead className=''>
                         <tr className='pb-8 leading-10'>
-                            <th className={`text-xs font-light ${dark ? 'c-text-light' : 'text-white'}`}> زاهدان </th>
+                            <th className={`text-xs font-light ${dark ? 'c-text-light' : 'text-white'}`}> مشهد </th>
                             <th className='text-xs font-light c-blue'> (فعال) </th>
                         </tr>
                     </thead>
@@ -31,4 +31,4 @@ const Zahedan = ({hide, dark}) => {
     );
 }
 
-export default Zahedan;
+export default Mashhad;
